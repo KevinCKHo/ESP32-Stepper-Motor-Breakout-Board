@@ -64,6 +64,28 @@ R1–R4 are 10 kΩ pull-ups for limit inputs on GPIO 34/35/36/39. Those pins hav
 | DHT11 data | 21 |
 | I²C display SDA / SCL | 21 / 22 (shared with DHT11 and Z MAX) |
 
+## Bill of materials
+Also available as [`docs/BOM.csv`](docs/BOM.csv).
+
+| Qty | Ref | Part | MPN / Source |
+|---:|---|---|---|
+| 1 | J7, J8 | ESP32 ESP-32D development board (30-pin DevKit) | [Amazon](https://www.amazon.com/dp/B0C8HDDNLV) |
+| 4 | J9–J16 | MP6500 stepper motor driver carrier | [Pololu #2968](https://www.pololu.com/product/2968) |
+| 1 | J18 | Keyes DHT11 temperature & humidity module | — |
+| 1 | J17 | Keyes KY-009 3-colour RGB LED module | — |
+| 4 | C1–C4 | 100 µF 50 V electrolytic capacitor | — |
+| 4 | R1–R4 | 10 kΩ 1% ¼ W, 1206 (limit-switch pull-ups) | Stackpole RMCF1206FT10K0 |
+| 3 | R5–R7 | 220 Ω 1% ¼ W, 1206 (RGB LED) | Stackpole RMCF1206FT220R |
+| 1 | J1 | Terminal block, 12-pos, 5 mm, side entry | Phoenix Contact 1715129 |
+| 1 | J2 | Terminal block, 2-pos, 5 mm, side entry | Phoenix Contact 1715022 |
+| 2 | J7, J8 | Female header 1×19, 2.54 mm (ESP32 socket) | — |
+| 8 | J9–J16 | Female header 1×8, 2.54 mm (driver sockets) | — |
+| 2 | J17, J20 | Female header 1×4, 2.54 mm (RGB / display) | — |
+| 2 | J18, J19 | Female header 1×3, 2.54 mm (temp sensor / COM) | — |
+| 4 | J3–J6 | Male pin header 1×4, 2.54 mm (motor outputs) | — |
+
+Optional: SSD1315 0.96" I²C OLED display on J20.
+
 ## Firmware
 Built with [PlatformIO](https://platformio.org/) (VS Code extension).
 

@@ -1,0 +1,15 @@
+Qty,Reference,Description,Manufacturer Part Number,Manufacturer,Link
+1,J7 J8,ESP32 ESP-32D development board (30-pin DevKit),,,https://www.amazon.com/dp/B0C8HDDNLV
+4,J9-J16,MP6500 stepper motor driver carrier,2968,Pololu,https://www.pololu.com/product/2968
+1,J18,DHT11 temperature & humidity sensor module,DHT11,Keyes,
+1,J17,3-colour RGB LED module,KY-009,Keyes,
+4,C1-C4,100 µF 50 V electrolytic capacitor,,,
+4,R1-R4,10 kΩ 1% 1/4 W resistor 1206 (limit switch pull-ups),RMCF1206FT10K0,Stackpole,
+3,R5-R7,220 Ω 1% 1/4 W resistor 1206 (RGB LED),RMCF1206FT220R,Stackpole,
+1,J1,Terminal block 12-pos 5 mm side entry,1715129,Phoenix Contact,
+1,J2,Terminal block 2-pos 5 mm side entry,1715022,Phoenix Contact,
+2,J7 J8,Female header 1x19 2.54 mm (ESP32 socket),,,
+8,J9-J16,Female header 1x8 2.54 mm (driver sockets),,,
+2,J17 J20,Female header 1x4 2.54 mm (RGB / display),,,
+2,J18 J19,Female header 1x3 2.54 mm (temp sensor / COM),,,
+4,J3-J6,Male pin header 1x4 2.54 mm (motor outputs),,,
