@@ -1,6 +1,6 @@
-# Microscope Stage Mover
+# ESP32 Stepper Motor Breakout Board
 
-A Wi-Fi controlled, 4-axis stepper motor controller for a motorized microscope stage. It runs on an ESP32 mounted on a custom carrier PCB.
+A Wi-Fi controlled, 4-axis stepper motor controller built around an ESP32 on a custom breakout PCB. It was designed to drive a motorized microscope stage (the *Microscope Stage Mover*). 
 
 The ESP32 creates its own Wi-Fi access point and serves a web dashboard. From the dashboard you can jog each axis with sliders, trigger an emergency stop, and watch temperature and humidity live.
 
