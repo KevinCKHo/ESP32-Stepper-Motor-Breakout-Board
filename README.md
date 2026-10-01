@@ -28,7 +28,7 @@ The ESP32 creates its own Wi-Fi access point and serves a web dashboard. From th
 ## Hardware: ESP32 Stepper Breakout Board (V1.1)
 An 85 × 110 mm, 2-layer board.
 
-| KiCad render | Bare PCB |
+| JLCPCB render | Bare PCB |
 |---|---|
 | <img src="docs/images/pcb-render.jpg" width="400"> | <img src="docs/images/pcb-bare.jpg" width="300"> |
 
