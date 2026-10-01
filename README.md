@@ -49,7 +49,7 @@ An 85 × 110 mm, 2-layer board.
 R1–R4 are 10 kΩ pull-ups for limit inputs on GPIO 34/35/36/39. Those pins have no internal pull-ups.
 
 ### ESP32 pin map
-<img src="docs/images/pinout.png" width="520" alt="ESP32 pin assignment">
+<img src="docs/images/pinout.svg" width="760" alt="ESP32 pin map">
 
 | Function | GPIO |
 |---|---|
